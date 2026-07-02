@@ -51,7 +51,6 @@ The command is implemented globally in the `frappe` app's CLI utility file by up
 
 put this code at end lines of bench command codes then add it to commands list like this
 
-commands = [
-	export_custom_doctype,
+commands = [export_custom_doctype]
 
 
